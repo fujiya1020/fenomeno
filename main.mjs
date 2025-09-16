@@ -148,7 +148,7 @@ client.on(Events.InteractionCreate, async (interaction) => {
       const templateText = commandConfig[commandName].templates[pattern];
       const imageUrl = commandConfig[commandName].image;
 
-      const messageContent = `📢 ボス！　${jpName} の募集案内が来ました！\n\n${templateText}\n\n締切日: ${deadlineFmt}\n\n🎮 レギュレーション\n${conditions}\n\n参加してくださるトレーナーの皆様は✅リアクションお願いします！`;
+      const messageContent = `📢 ボス！　${jpName} の募集案内が来ました！\n\n${templateText}\n\n締切日: ${deadlineFmt} 0:00\n\n🎮 レギュレーション\n${conditions}\n\n参加してくださるトレーナーの皆様は✅リアクションお願いします！`;
 
       const channel = await client.channels.fetch(interaction.channel.id);
 
