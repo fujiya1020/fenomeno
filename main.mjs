@@ -37,7 +37,7 @@ app.listen(3000, () => console.log("Webサーバー起動: 3000"));
 const commandConfig = {
   saiketu: {
     jpName: "最強決定戦",
-    image: "https://media.discordapp.net/attachments/1207888867772858459/1392504407433936986/6f8829d888098eb1.png?ex=68c8c38a&is=68c7720a&hm=6be5125ea0b2365d2ea65fef5a3472ea33b4c865413f83ea6fbfe61d80a13b81&=&format=webp&quality=lossless&width=565&height=799",
+    image: "https://cdn.discordapp.com/attachments/1207888867772858459/1414753471651119135/1f9164eaddeac575.png",
     templates: {
       2: "・1人3ウマ娘　9人建て　予選(1日3，4レースを数日間)→準決勝→決勝\n・育成締切日は予選開始前日23:59とし、個体変更は不可です。\n・決勝戦はSDG's CUP、えすあーる杯と同日です。",
       3: "・1レース12頭立て　トレーナー2人（各3ウマ娘）+モブ6人\n・予選総当たり→準決勝（参加人数次第）→決勝\n・1レースごとに順位によりポイントを付与、獲得合計ポイントにより勝敗を決します。\n・予選は勝利数により順位決定、並んだ場合は予選での直接対決の結果を参照します。\n・個体締切は予選開始の1日前、予選開始以降、キャラの差し替えは禁止です。",
@@ -45,7 +45,7 @@ const commandConfig = {
   },
   sdgscup: {
     jpName: "SDG's CUP",
-    image: "https://media.discordapp.net/attachments/1207888498942677003/1414751719908442233/SDGsCUP.png?ex=68c89eb6&is=68c74d36&hm=dd8c0e538275dcbd7b4bc00817d425ff8210c7a9a473617afa0c4fcc9145588b&=&format=webp&quality=lossless&width=565&height=799",
+    image: "https://cdn.discordapp.com/attachments/1207888498942677003/1414751719908442233/SDGsCUP.png",
     templates: {
       1: "・1人1ウマ娘一発勝負\n",
     },
@@ -53,7 +53,7 @@ const commandConfig = {
   },
   srhai: {
     jpName: "えすあーる杯",
-    image: "https://media.discordapp.net/attachments/1214370384854388837/1414752832980127745/f4f69879c3f7af96.png?ex=68c89fc0&is=68c74e40&hm=88974d395c6495efb599c5a61befc540f16049f432bb3ba9b6ca1041dbcac17c&=&format=webp&quality=lossless&width=565&height=799",
+    image: "https://cdn.discordapp.com/attachments/1214370384854388837/1414752832980127745/f4f69879c3f7af96.png",
     templates: {
       2: "・1人1ウマ娘一発勝負\n・自前はR・SRのみ、フレ枠SSR可\n・定員9名",
       3: "・1人1ウマ娘一発勝負\n・自前はR・SRのみ、フレ枠SSR可\n・定員12名",
