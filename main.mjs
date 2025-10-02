@@ -170,7 +170,7 @@ client.on(Events.InteractionCreate, async (interaction) => {
 
       let sentMessage;
       if (imageUrl) {
-        sentMessage = await channel.send({ content: messageContent, files: [imageUrl] });
+        sentMessage = await channel.send({ content: messageContent, files: [{attachment:imageUrl}] });
       } else {
         sentMessage = await channel.send(messageContent);
       }
